@@ -274,7 +274,7 @@ export default function App() {
       </div>
 
       <footer className="footer">
-        <p>© 2026 Yeon Su Park &nbsp;·&nbsp; Last updated: April 10, 2026</p>
+        <p>© 2026 Yeon Su Park &nbsp;·&nbsp; Last Updated: April 10, 2026</p>
       </footer>
     </>
   )
