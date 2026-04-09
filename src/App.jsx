@@ -16,7 +16,7 @@ const GitHubIcon = () => <BrandIcon path="M12 .297c-6.63 0-12 5.373-12 12 0 5.30
 
 /* ── Social links (CV, Scholar, LinkedIn, X, GitHub) */
 const socialLinks = [
-  { icon: <FileText size={19} strokeWidth={1.7} />,      label: 'CV',            href: '#',                                                               external: false },
+  { icon: <FileText size={19} strokeWidth={1.7} />,      label: 'CV',            href: '/CV.pdf',                                            external: true  },
   { icon: <GraduationCap size={19} strokeWidth={1.7} />, label: 'Google Scholar', href: 'https://scholar.google.com/citations?user=_UI0VgoAAAAJ&hl=en',   external: true  },
   { icon: <LinkedInIcon />,                               label: 'LinkedIn',       href: 'https://www.linkedin.com/in/yeon-su-park-4a743831b/',            external: true  },
   { icon: <XIcon />,                                      label: 'X',              href: 'https://x.com/yeonsu_28',                                        external: true  },
