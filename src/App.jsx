@@ -221,7 +221,7 @@ export default function App() {
           <section className="section" id="about">
             <h2 className="section-title">About Me</h2>
             <p className="bio">
-              👋 Hi! I am Yeon Su , a first-year Ph.D. student in the{' '}
+              👋 Hi! I am Yeon Su, a first-year Ph.D. student in the{' '}
               <a href="https://cs.kaist.ac.kr/" target="_blank" rel="noreferrer">School of Computing</a>
               {' '}at{' '}
               <a href="https://www.kaist.ac.kr/kr/" target="_blank" rel="noreferrer">KAIST</a>,
