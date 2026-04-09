@@ -406,6 +406,10 @@ html.dark .pub-chip {
     padding: 0 20px;
   }
 
+  .navbar-links a {
+    display: none;
+  }
+
   .page {
     flex-direction: column;
     padding: calc(var(--navbar-h) + 32px) 20px 64px;
