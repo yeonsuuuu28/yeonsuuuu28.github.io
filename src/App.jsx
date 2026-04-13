@@ -42,7 +42,7 @@ const publications = [
     title: 'Authorship Drift: How Self-Efficacy and Trust Evolve During LLM-Assisted Writing',
     authors: 'Yeon Su Park, Nadia Azzahra Putri Arvi, Seoyoung Kim, Juho Kim',
     venue: 'CHI 2026',
-    links: { pdf: 'TBA', website: 'https://authorshipdrift.kixlab.org', arxiv: 'https://arxiv.org/abs/2602.05819' },
+    links: { pdf: 'https://dl.acm.org/doi/10.1145/3772318.3790276', website: 'https://authorshipdrift.kixlab.org', arxiv: 'https://arxiv.org/abs/2602.05819' },
   },
   {
     title: "Less Talk, More Trust: Understanding Players' In-game Assessment of Communication Processes in League of Legends",
