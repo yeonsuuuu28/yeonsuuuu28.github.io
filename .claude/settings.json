@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew list *)",
+      "Read(//Applications/**)",
+      "Read(//usr/local/**)"
+    ]
+  }
+}
