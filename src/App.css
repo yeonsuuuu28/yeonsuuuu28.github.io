@@ -113,10 +113,10 @@ html.dark .pub-chip {
 
 .page {
   display: flex;
-  max-width: 1040px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: calc(var(--navbar-h) + 52px) 32px 48px;
-  gap: 56px;
+  gap: 72px;
 }
 
 /* ── Sidebar ─────────────────────────────────────── */

@@ -25,6 +25,8 @@ const socialLinks = [
 
 /* ── News ────────────────────────────────────────── */
 const news = [
+  { emoji: '🇰🇷', date: 'Jul 2026', text: 'Attending ICML 2026 in Seoul, South Korea.' },
+  { emoji: '🇰🇷', date: 'Jun 2026', text: 'Attending Festival of Learning 2026 in Seoul, South Korea.' },
   { emoji: '🇪🇸', date: 'Apr 2026', text: 'Excited to present at CHI 2026 in Barcelona, Spain!' },
   { emoji: '🎓', date: 'Mar 2026', text: 'Started my Ph.D. at KIXLAB, KAIST.' },
   { emoji: '🎉', date: 'Jan 2026', text: 'My first first-author paper is accepted to CHI 2026!' },
@@ -65,6 +67,18 @@ const publications = [
 ]
 
 const workshops = [
+  {
+    title: `When AI "Works," When Does Help Begin?: Intergenerational Support Around Older Adults' LLM Usage`,
+    authors: 'Hyehyun Chu, Yuri Lee, Yeon Su Park, Saelyne Yang, Juho Kim',
+    venue: 'CSCW 2026 Family-Centered AI Workshop',
+    links: { pdf: 'TBA', website: null, arxiv: 'https://arxiv.org/abs/2608.24297' },
+  },
+  {
+    title: 'Supporting Tutors in the Gig Economy with Automated Feedback: A Case Study on Ringle',
+    authors: 'Yeon Su Park*, Sieun Kim*, Keighley Overbay, Seoyoung Kim, Sewook Wee, Daho Jung, Juho Kim',
+    venue: 'FoL 2026 PEAF Workshop',
+    links: { pdf: 'TBA', website: null, arxiv: 'https://arxiv.org/abs/2606.22609' },
+  },
   {
     title: 'PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory',
     authors: 'Junho Myung*, Yeon Su Park*, Sunwoo Kim*, Shin Yoo, Alice Oh',
@@ -231,7 +245,7 @@ export default function App() {
               <a href="https://www.kixlab.org/" target="_blank" rel="noreferrer">KIXLAB</a>.
             </p>
             <p className="bio">
-              My research mainly focuses on <b>Human–AI Interaction (HAI)</b>. I study how people engage with and rely on AI systems in complex, cognitively demanding tasks, with the goal of understanding what constitutes appropriate reliance and how to support it.
+              My research mainly focuses on <b>Human–AI Interaction (HAI)</b>. I study how AI systems reshape people’s roles in complex AI-mediated work, examining how different patterns of AI use affect task outcomes and users’ ability to guide, evaluate, and control the process.
             </p>
             <p className="bio">
               Please do not hesitate to reach out if you are interested in my research or would
@@ -274,7 +288,7 @@ export default function App() {
       </div>
 
       <footer className="footer">
-        <p>© 2026 Yeon Su Park &nbsp;·&nbsp; Last Updated: May 28, 2026</p>
+        <p>© 2026 Yeon Su Park &nbsp;·&nbsp; Last Updated: Sep 21, 2026</p>
       </footer>
     </>
   )
