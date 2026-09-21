@@ -25,8 +25,8 @@ const socialLinks = [
 
 /* ── News ────────────────────────────────────────── */
 const news = [
-  { emoji: '🇰🇷', date: 'Jul 2026', text: 'Attending ICML 2026 in Seoul, South Korea.' },
-  { emoji: '🇰🇷', date: 'Jun 2026', text: 'Attending Festival of Learning 2026 in Seoul, South Korea.' },
+  { emoji: '🇰🇷', date: 'Jul 2026', text: 'Attended ICML 2026 in Seoul, South Korea.' },
+  { emoji: '🇰🇷', date: 'Jun 2026', text: 'Attended Festival of Learning 2026 in Seoul, South Korea.' },
   { emoji: '🇪🇸', date: 'Apr 2026', text: 'Excited to present at CHI 2026 in Barcelona, Spain!' },
   { emoji: '🎓', date: 'Mar 2026', text: 'Started my Ph.D. at KIXLAB, KAIST.' },
   { emoji: '🎉', date: 'Jan 2026', text: 'My first first-author paper is accepted to CHI 2026!' },
